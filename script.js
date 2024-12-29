@@ -15,5 +15,9 @@ const calculator = () => {
         let answer = eval(screen.value);
         screen.value = answer;
     });
+
+    clear.addEventListener('click', () => {
+        screen.value = "";
+    });
 };
 calculator();

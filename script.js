@@ -1,8 +1,8 @@
 const calculator = () => {
     let screen = document.querySelector(".screen");
-    let buttons = documents.querySelectorAll(".btn");
-    let clear = docoments.querySelector('.clear');
-    let equal = documents.querySelector('.equal');
+    let buttons = document.querySelectorAll(".btn");
+    let clear = docoment.querySelector('.clear');
+    let equal = document.querySelector('.equal');
 
     buttons.forEach((button) => {
         button.addEventListener("click", (e)=>{
@@ -15,5 +15,5 @@ const calculator = () => {
         let answer = eval(screen.value);
         screen.value = answer;
     });
-}
+};
 calculator();

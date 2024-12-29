@@ -4,8 +4,8 @@ const calculator = () => {
     let clear = docoments.querySelector('.clear');
     let equal = documents.querySelector('.equal');
 
-    buttons.forEach((botton) => {
-        buttons.addEventListener("click", (e)=>{
+    buttons.forEach((button) => {
+        button.addEventListener("click", (e)=>{
             let value = e.target.dataset.num;
             screen.value += value;
         });

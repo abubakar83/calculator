@@ -1,7 +1,7 @@
 const calculator = () => {
     let screen = document.querySelector(".screen");
     let buttons = document.querySelectorAll(".btn");
-    let clear = docoment.querySelector('.clear');
+    let clear = document.querySelector('.clear');
     let equal = document.querySelector('.equal');
 
     buttons.forEach((button) => {

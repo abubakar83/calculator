@@ -56,7 +56,8 @@ html {
 }
 .clear {
     width: 25rem;
-    background: #d62929;
+    /* background: #d62929; */
+    background: white;
 }
 .btn::before,
 .equal::before {
